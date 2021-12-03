@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@300&family=Rampart+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    display: grid;
+    height: 100vh;
+    background: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body h1{
+    justify-self: center;
+    margin-top: 80px;
+    font-size: 100px;
+   
+}
+.container{
+    position: absolute;
+    width: 50%;
+    min-width: 180px;
+    top: 30%;
+    right: 25%;
+    background-color: rgba(147, 221, 240, 0.835);
+    padding: 80px 10px ;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    
+    box-shadow: 0px 10px 30px;
+    
+}
+h2{
+    font-size: 30px;
+    
+    
+}
+
+#outputtext {
+
+    margin-top: 50px;
+}
+
+#guesstext {
+    margin-top: 50px;
+}
+
+input[type="text"]{
+    width: 15%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid rgb(60, 176, 206);
+}
+
+button{
+    width: 20%;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(206, 27, 95, 0.616);
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 5px 5px #000 ;
+}
